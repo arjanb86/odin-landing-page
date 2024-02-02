@@ -28,6 +28,7 @@
 .header2-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #1F2937;
     color: white;
     height: 350px;
@@ -67,6 +68,7 @@ button {
 
 .info-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     height: 300px;
 }
@@ -79,6 +81,13 @@ button {
     padding: 30px;
 }
 
+.img-header {
+    display: flex;
+    padding-right: 150px;
+    width: auto;
+    height: 250px;
+}
+
 .image {
     padding-bottom: 10px;
     width: 150px;
@@ -88,10 +97,12 @@ button {
 .text {
     color: rgb(105, 105, 105);
     font-size: 14px;
+    text-align: center;
 }
 
 .quote-container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     background-color: #E5E7EB;
@@ -102,10 +113,12 @@ button {
 }
 
 .quote {
+    flex-wrap: wrap;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
+    min-height: 0;
 }
 
 .credit {
@@ -117,4 +130,37 @@ button {
 .signup-container {
     display: flex;
     height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-box {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-evenly;
+    height: 150px;
+    width: 1000px;
+    border-radius: 10px;
+}
+
+.signup-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.signup-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: #1F2937;
+    color: white;
 }
